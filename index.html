@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+<STYLE>
+html {
+  scroll-behavior: smooth;
+}
+
+#contact {
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  color: #333; /* Dark gray text */
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f00; /* Red heading */
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray label text */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+button:hover {
+  background-color: #0062cc;
+}
+
+#reviews {
+  text-align: center;
+  padding: 20px;
+}
+
+.review {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review img {
+  max-width: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.review p strong {
+  font-weight: bold;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#about {
+  background-color: #f8f8f8; 
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  color: #333; 
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f00; 
+}
+
+#about p {
+  color: #666; 
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#about a {
+  color: #007bff; 
+  text-decoration: none;
+  font-weight: bold;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.button {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.center{
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  color: #333; 
+  margin: 0;
+  padding: 0;
+}
+
+.center{text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+}
+.hero { background-image: url('denys-nevozhai-_QoAuZGAoPY-unsplash.jpg');
+  background-size: cover;
+  background-position: center top;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.movie-card {
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid #ff9900;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.movie-card {
+  display: inline-block;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-info {
+  text-align: center;
+}
+
+.movie-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.movie-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+}
+
+.active {
+  background-color: #04AA6D;
+
+
+
+.hero {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<header>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#popular">Popular Movies</a></li>
+        <li><a href="#upcoming">Upcoming Releases</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+</header>
+  <section id="home">
+    <div class="hero">
+     <h1>Embark on a Cinematic Journey</h1>
+    <p>Discover a world of captivating stories, stunning visuals, and unforgettable characters. Explore our vast library of movies and TV shows, curated just for you.</p>
+    <a href="#popular" class="button">Start Exploring</a>
+    </div>
+  </section>
+
+  <section id="popular">
+  <h2>Popular Movies</h2>
+<div class="movie-grid">  
+<div class="movie-card">
+    <img src="Interstellar (2014).jpeg" alt="Interstellar">
+    <h3>Interstellar</h3>
+    <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+    <a href="https://youtu.be/zSWdZVtXT7E?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card"> 
+ <img src="Inception (2010).jpeg" alt="Inception">
+    <h3>Inception</h3>
+    <p>A thief who steals corporate secrets through use of dream-sharing technology.</p>
+    <a href="https://youtu.be/YoHD9XEInc0?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">   
+<img src="conjuring.jpeg" alt="The Conjuring">
+    <h3>The Conjuring</h3>
+    <p>Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.</p>
+    <a href="https://youtu.be/k10ETZ41q5o?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">
+    <img src="Poster Ideas Joker.jpeg" alt="Joker">
+    <h3>Joker</h3>
+    <p>A gritty psychological thriller about the origins of the iconic DC villain.</p>
+    <a href="https://youtu.be/zAGVQLHvwOY?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">
+    <img src="Avengers_ End game.jpeg" alt="Avengers: Endgame">
+    <h3>Avengers: Endgame</h3>
+    <p>The Avengers must assemble once more to undo Thanos' actions and restore balance to the universe.</p>
+    <a href="https://youtu.be/TcMBFSGVi1c?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card"> 
+    <img src="Parasite 2019 Movie.jpeg" alt="Parasite">
+    <h3>Parasite</h3>
+    <p>A poor family schemes to infiltrate a wealthy family and take over their lives.</p>
+    <a href="https://youtu.be/5xH0HfJHsaY?feature=shared" class="button">More Info</a>
+</div>  
+</div>
+<div class="movie-grid">  
+<div class="movie-card">
+    <img src="Fight Club Poster.jpeg" alt="Fight Club">
+    <h3>Fight Club</h3>
+    <p>A man suffering from insomnia joins a bizarre fight club for troubled men.</p>
+    <a href="https://youtu.be/O1nDozs-LxI?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">
+    <img src="New Tenet poster (1382x2048).jpeg" alt="Tenet">
+    <h3>Tenet</h3>
+    <p>A secret agent must prevent World War III by manipulating the flow of time.</p>
+    <a href="https://youtu.be/L3pk_TBkihU?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">  
+<div class="movie-card">
+    <img src="DUNE POSTER 4K 2021.jpeg" alt="Dune">
+    <h3>Dune</h3>
+    <p>A young noble is thrust into a dangerous intergalactic struggle for control of the most valuable substance in the universe.</p>
+    <a href="https://youtu.be/n9xhJrPXop4?feature=shared" class="button">More Info</a>
+  </div>
+</div>
+<div class="movie-grid">
+<div class="movie-card">
+    <img src="PIRATES OF THE CARIBBEAN 4_ ON STRANGER TIDES _ KARAYİP KORSANLARI 4_ GİZEMLİ DENİZLERDE _ 2011.jpeg" alt="pirates of carribean">
+    <h3>pirates of the caribbean</h3>
+    <p>A swashbuckling adventure filled with pirates, magic, and humor. Captain Jack Sparrow, a cunning and charming pirate, embarks on thrilling quests across the high seas. With his trusty crew and magical compass, he faces danger, betrayal, and mythical creatures.</p>
+    <a href="[4K] Pirates of the Caribbean「EDIT」.1080p60.mp4" class="button">More Info</a>
+  </div>
+</div>
+</section>
+ 
+
+<section id="upcoming">
+  <h2>Upcoming Releases</h2>
+<div class="movie-grid">
+  <div class="movie-card">
+
+            <img src="avatar-fire-and-ash-2025-movie-kn-1920x1200.jpg" alt="avatar fire and ash">
+            <h3>Avatar: Fire and Ash</h3>
+            <p>Release Date: 2025</p>
+            <p>The sequel to 'Avatar: The Way of Water.'</p>
+        </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">
+    <img src="avengers-the-kang-dynasty-k9-1920x1200.jpg" alt="Avengers: The Kang Dynasty">
+    <h3>Avengers: The Kang Dynasty</h3>
+    <p>Release Date: May 2, 2025</p>
+    <p>The Avengers face their greatest threat yet.</p>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">
+    <img src="John Wick 5 Announcement & Release Date Expected.jpeg" alt="John Wick: Chapter 5">
+    <h3>John Wick: Chapter 5</h3>
+    <p>Release Date: March 22, 2025</p>
+    <p>The legendary assassin returns for another thrilling adventure.</p>
+  </div>
+</div>
+<div class="movie-grid">
+  <div class="movie-card">
+    <img src="download.jpeg" alt="Avengers: Secret Wars">
+    <h3>Avengers: Secret Wars</h3>
+    <p>Release Date: November 7, 2025</p>
+    <p>The ultimate crossover event of the Marvel Cinematic Universe.</p>
+  </div>
+</div>
+<div class="movie-grid">
+<div class="movie-card">
+            <img src="28-years-later-2025-movie-mw-1920x1200.jpg" alt="28 years later">
+            <h3>28 years later</h3>
+            <p>Release Date: 2025</p>
+            <p>The third film in the '28 Days Later' franchise.</p>
+        </div>
+</div>
+<div class="movie-grid">
+<div class="movie-card">
+            <img src="mission impossible.jpeg" alt="mission impossible">
+            <h3>Mission: Impossible – The Final Reckoning</h3>
+            <p>Release Date: 2025</p>
+            <p>The next installment in the action-packed spy series.</p>
+        </div>
+</div>
+<div class="movie-grid">
+<div class="movie-card">
+            <img src="Jurassic World 4 Rebirth Teaser Poster HD  Edition.jpeg" alt="jurassic world">
+            <h3>Jurassic World Rebirth</h3>
+            <p>Release Date: 2025</p>
+            <p>Another chapter in the dinosaur franchise.</p>
+        </div>
+  </div>
+  </section>
+
+
+
+<section id="reviews">
+  <h2>Latest Reviews</h2>
+  
+<div class="movie-grid">
+<div class="review">
+
+    <img src="Inception (2010).jpeg" alt="Inception Poster">
+    <h3>Inception</h3>
+    <p>A mind-bending masterpiece that explores the depths of the human subconscious. Christopher Nolan's intricate plot and stunning visuals make this film a cinematic masterpiece.</p>
+    <p><strong>Rating: ★★★★★</strong></p>
+  </div></div>
+<div class="movie-grid">
+  <div class="review">
+    <img src="The Shawshank Redemption Watch in HD Quality.jpEg" alt="The Shawshank Redemption Poster">
+    <h3>The Shawshank Redemption</h3>
+    <p>A timeless tale of hope, friendship, and redemption. This film's powerful performances and emotional depth have made it a beloved classic.</p>
+    <p><strong>Rating: ★★★★★</strong></p>
+  </div></div>
+<div class="movie-grid">
+  <div class="review">
+    <img src="dARK KNIGHT.jpEg" alt="The Dark Knight Poster">
+    <h3>The Dark Knight</h3>
+    <p>A groundbreaking superhero film with a captivating performance by Heath Ledger as the Joker.</p>
+    <p><strong>Rating: ★★★★★</strong></p>
+  </div></div>
+<div class="movie-grid">
+  <div class="review">
+    <img src="Parasite 2019 Movie.jpeg" alt="Parasite Poster">
+    <h3>Parasite</h3>
+    <p>A dark comedy-thriller that explores themes of class and inequality.</p>
+    <p><strong>Rating: ★★★★★</strong></p>
+  </div></div>
+<div class="movie-grid">
+  <div class="review">
+    <img src="Fight Club Poster.jpeg" alt="Fight Club Poster">
+    <h3>Fight Club</h3>
+    <p>A cult classic about a man who starts a fight club to escape his mundane life.</p>
+    <p><strong>Rating: ★★★★☆</strong></p>
+  </div></div>
+</section>
+  <section id="about">
+    <h2>About Us</h2>
+  <p>Welcome to movie hub! I'm Chetan Arora, the owner and developer behind this website.</p>
+  <p>As a passionate movie enthusiast, I created this platform to provide a space for movie lovers to discover, explore, and discuss their favorite films.</p>
+  <p>I work tirelessly to curate the latest movie, reviews, and recommendations for your cinematic journey.</p>
+  <p>Have any questions or feedback? Feel free to reach out to me at <a href="mailto:masterchetan89@gmail.com">masterchetan89@gmail.com</a>.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+</body>
