@@ -28,7 +28,7 @@ Bash
 
 git clone [https://github.com/masterchetan11/movieflix]
 cd MoveFlix
-Open the main JavaScript file (js/script.js or wherever your key is used) and insert your key where prompted in the code.
+Open the main JavaScript file (js/script.js etc) 
 
 Launch the App:
 
